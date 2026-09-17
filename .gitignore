@@ -1,0 +1,76 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Backend - C#/.NET
+backend/**/bin/
+backend/**/obj/
+backend/**/*.csproj.user
+backend/**/*.csproj.lock
+backend/RideShareCampus.API/appsettings.Development.json
+backend/**/.env
+backend/**/.vs/
+backend/**/.user
+
+# React/Frontend Web
+frontend-web/node_modules/
+frontend-web/dist/
+frontend-web/.env.local
+frontend-web/.env.development.local
+frontend-web/.parcel-cache
+frontend-web/build/
+
+# Flutter/Frontend Mobile
+frontend-mobile/build/
+frontend-mobile/.dart_tool/
+frontend-mobile/.flutter-plugins
+frontend-mobile/.flutter-plugins-dependencies
+frontend-mobile/pubspec.lock
+frontend-mobile/build/
+frontend-mobile/.env
+frontend-mobile/*.jks
+frontend-mobile/*.keystore
+
+# Python/AI Agents
+ai-agents/__pycache__/
+ai-agents/venv/
+ai-agents/.env
+ai-agents/*.pyc
+ai-agents/*.egg-info/
+ai-agents/.pytest_cache/
+ai-agents/dist/
+ai-agents/build/
+
+# Environment variables
+*.env
+!.env.example
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Temp files
+tmp/
+temp/
+*.tmp
